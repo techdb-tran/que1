@@ -2,35 +2,48 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+}  
 .container{
     display: flex;
 }
-.menu{
+.left-content{
     background-color: black;
-    width: 200px;
+    width: 400px;
     height: 100vh;
+}
+.menu li{
+    margin: 15px 0;
 }
 .menu li a{
     text-decoration: none;
     color: white;
-    padding: 30px;
+    padding: 40px 30px;
 }
-.right-content{
-    display: flex;
-    flex-direction: column;
-    margin-left: 300px;
+.menu li:hover{
+    border: 1px solid purple;
 }
-.logo img{
-    margin-left: 200px;
+.container .right-content{
+    text-align: center;
+    margin: 30px 50px;
 }
 .des{
-    text-align: center;
-    width: 700px;
+    margin: 30px 80px;
+    background: #EFEFEF;
+}
+.item-content{
+    margin: 30px 20px;
+}
+.item-top{
+    display: flex;
 }
 .item{
     display: flex;
 }
 .copyright{
     margin-top: 100px;
+}
+footer{
+    position: absolute;
+    margin: 20px 150px;
+    bottom: 0;
 }
