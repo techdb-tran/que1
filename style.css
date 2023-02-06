@@ -28,3 +28,9 @@
     text-align: center;
     width: 700px;
 }
+.item{
+    display: flex;
+}
+.copyright{
+    margin-top: 100px;
+}
